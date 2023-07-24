@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+body {
+  max-width: 920px;
+  margin: 0 auto;
+}
+.accordion {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.accordion-item {
+  background: linear-gradient(180deg, #3b82f6 0%, #06b6d4 100%);
+  color: #444;
+  cursor: pointer;
+  padding: 0 15px;
+  border-radius: 8px;
+  width: 100%;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1,
+h3,
+.accordion-actions {
+  margin: 5px 0;
+}
+h1 {
+  font-weight: bold;
+  color: white;
+  opacity: 0.2;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.accordion-item h3 {
+  color: #fff;
+}
+.accordion-actions {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.accordion-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.accordion-content {
+  padding: 0 20px;
+}
+.hidden-content {
+  display: none;
+}
+.StyleFont {
+  font-weight: 600;
+  color: rgb(156 163 175);
+}
+.logo {
+  font-family: "Monoton", cursive;
+  text-align: center;
+}
+.App {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 5px 10px 5px;
+}
+.App-Next {
+  margin-top: 7%;
+}
+hr{
+  margin: 80px 0;
+  border: 1px solid #E5E7EB;
+}
